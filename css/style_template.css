@@ -66,7 +66,7 @@ footer a:hover {
 }
 
 .splash img {
-    border-radius: 10px;
+    border-radius: 20px;
     border: 5px solid #1EC340;
 }
 
@@ -80,6 +80,7 @@ footer a:hover {
 hr {
     border: 5px solid black;
     border-radius: 5px;
+    width:5%;
 }
 
 /* Sections */
@@ -94,6 +95,7 @@ section {
 
 /* Section Headings */
 section h2 {
+    font-family: "Roboto", serif; /*just to make sure the requirement is met */
     color:#1EC340;
     padding-top: 5px;
     font-size: 2em;
@@ -118,6 +120,8 @@ section a:hover {
 /* List Styles */
 ul {
     padding-bottom: 5px;
+    font-family: "Roboto", serif; /*just to make sure the requirement is met */
+    font-size: 110%;
 }
 
 dl {
@@ -140,6 +144,7 @@ dl dd{
     column-gap: 40px;
     border-radius: 10px;
     margin-bottom:25px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -150,6 +155,7 @@ dl dd{
     box-shadow: 0 4px 8px 0 white;
     transition: 0.3s;
     color: black;
+    align-items:start;
 }
 
 .card:hover {
@@ -162,6 +168,7 @@ dl dd{
 }
 
 .card h3 {
+    font-size: 200%;
     padding: 5px;
 }
 
